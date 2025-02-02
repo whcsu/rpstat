@@ -4,9 +4,16 @@
 
 # 勘误
 
-## p28-输出的result外应该是双引号
+## p12-安装命令中rmarkdown添加引号
+R Markdown文档编辑需要安装`rmarkdown`包:
 
 **修改后：**
+
+install.packages("rmarkdown")
+
+## p28-输出的result外应该是双引号
+**修改后：**
+
 两个或多个字符串对应元素拼接时，分隔用的字符可以用`sep`参数指定，默认为空格，例如：
 ```{r eval=FALSE, tidy=TRUE}
 paste("result",c(1:5))
@@ -16,8 +23,8 @@ paste("result",c(1:5),sep = "")
 ```
 
 ## p130-第一行文字中正态分布为应为二项分布
-
 **修改后：**
+
 生成二项分布随机数的函数是`rbinom()`（随机数对应前缀`r`，二项分布为`binom`，组合成`rbinom()`），对应语法是：
 
 
