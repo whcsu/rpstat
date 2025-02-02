@@ -6,10 +6,15 @@
 
 ## p12-安装命令中rmarkdown添加引号
 R Markdown文档编辑需要安装`rmarkdown`包:
-
 **修改后：**
 
 install.packages("rmarkdown")
+## p22-2.521少了空格
+本页中所有"2.52.1"中少了空格。
+
+**修改后：**
+
+2.5 2.1
 
 ## p28-输出的result外应该是双引号
 **修改后：**
