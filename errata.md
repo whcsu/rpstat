@@ -35,10 +35,12 @@ paste("result",c(1:5),sep = "")
 ## p115-Shiny大小写错误
 
 library(Shiny)
+
 runExample("01_hello")
 
 **修改后：**
 library(shiny)
+
 runExample("01_hello")
 
 ## p130-第一行文字中正态分布为应为二项分布
